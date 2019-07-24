@@ -45,7 +45,13 @@
                             <outlet property="delegate" destination="stA-hc-OaJ" id="UiD-r0-mdE"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Vocabulary Words" id="S8P-OG-XRM"/>
+                    <navigationItem key="navigationItem" title="Vocabulary Words" id="S8P-OG-XRM">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="bm5-pz-XRE">
+                            <connections>
+                                <action selector="AddWord:" destination="stA-hc-OaJ" id="sP0-sE-FCJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fc8-zb-LH9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
