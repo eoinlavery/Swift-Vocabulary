@@ -14,6 +14,8 @@
 		A43AF13C22E7FEA500987F53 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43AF13B22E7FEA500987F53 /* WordsTableViewController.swift */; };
 		A43AF13E22E7FEBC00987F53 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43AF13D22E7FEBC00987F53 /* DefinitionViewController.swift */; };
 		A43AF14122E8009300987F53 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43AF14022E8009300987F53 /* Word.swift */; };
+		A471140B22E8EA97004C9C31 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471140A22E8EA97004C9C31 /* CategoriesTableViewController.swift */; };
+		A471140D22E8EAA2004C9C31 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471140C22E8EAA2004C9C31 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A43AF13B22E7FEA500987F53 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
 		A43AF13D22E7FEBC00987F53 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 		A43AF14022E8009300987F53 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		A471140A22E8EA97004C9C31 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		A471140C22E8EAA2004C9C31 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 			children = (
 				A43AF13B22E7FEA500987F53 /* WordsTableViewController.swift */,
 				A43AF13D22E7FEBC00987F53 /* DefinitionViewController.swift */,
+				A471140A22E8EA97004C9C31 /* CategoriesTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				A43AF14022E8009300987F53 /* Word.swift */,
+				A471140C22E8EAA2004C9C31 /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,6 +167,8 @@
 				A43AF14122E8009300987F53 /* Word.swift in Sources */,
 				A43AF13E22E7FEBC00987F53 /* DefinitionViewController.swift in Sources */,
 				A43AF13C22E7FEA500987F53 /* WordsTableViewController.swift in Sources */,
+				A471140B22E8EA97004C9C31 /* CategoriesTableViewController.swift in Sources */,
+				A471140D22E8EAA2004C9C31 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
